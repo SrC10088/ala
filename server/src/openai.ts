@@ -1,4 +1,3 @@
-'''
 import OpenAI from 'openai';
 import dotenv from 'dotenv';
 
@@ -47,4 +46,3 @@ export async function parseTask(text: string): Promise<ParsedTask> {
     throw new Error("Failed to parse task with OpenAI");
   }
 }
-'''
